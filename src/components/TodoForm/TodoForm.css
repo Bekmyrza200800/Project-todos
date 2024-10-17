@@ -1,0 +1,21 @@
+.main-title {
+  font-size: 2.5rem;
+  color: #001474;
+}
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #afafaf;
+  border-radius: 16px;
+  padding: 6px 14px;
+}
+.todo-input {
+  border: none;
+  outline: none;
+  width: 60%;
+  font-size: 1rem;
+}
+.button-block {
+  display: flex;
+  gap: 14px;
+}

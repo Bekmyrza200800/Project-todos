@@ -1,0 +1,30 @@
+.todo-list-main {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 28px;
+}
+.todo-item {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid #afafaf;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+}
+.todo-title {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.todo-title:hover {
+  color: #2d70fd;
+}
+.completed {
+  text-decoration: line-through;
+  color: #afafaf;
+}
+.empty-text {
+  font-size: 3rem;
+  text-align: center;
+}

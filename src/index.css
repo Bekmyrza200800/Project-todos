@@ -1,0 +1,19 @@
+body {
+  background-color: #011747;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+  background-color: #fff;
+  padding: 75px 200px 34px 200px;
+  width: 90%;
+  height: 80vh;
+  border-radius: 15px;
+  border-radius: 15px;
+  margin: 40px auto;
+}

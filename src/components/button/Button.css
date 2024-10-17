@@ -1,0 +1,26 @@
+.mainButton {
+  padding: 10px;
+  padding: 6px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.green {
+  background-color: #14b270;
+}
+
+.red {
+  background-color: #ce0c23;
+}
+
+.green:hover {
+  background-color: #0e784c;
+}
+
+.red:hover {
+  background-color: #9c091a;
+}
